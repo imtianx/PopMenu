@@ -7,8 +7,8 @@
 
 使用方法：<br>
 
-		new ActionSheetDialog(context).show();<br>
-       new ActionSheetDialog(context).show();<br>
+		new ActionSheetDialog(context).show();
+       new ActionSheetDialog(context).show();
 注：context = 当前activity.this;
 
 具体用法：
