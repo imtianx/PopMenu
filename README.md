@@ -1,4 +1,11 @@
 # PopMenu
+
+
+[![License](https://img.shields.io/github/license/imtianx/PopMenu.svg)](https://github.com/imtianx/PopMenu/blob/master/LICENSE) 
+[![Stars](https://img.shields.io/github/stars/imtianx/PopMenu.svg)](https://github.com/imtianx/PopMenu/stargazers) 
+[![Stars](https://img.shields.io/github/forks/imtianx/PopMenu.svg)](https://github.com/imtianx/PopMenu/network) 
+[![Forks](https://img.shields.io/github/issues/imtianx/PopMenu.svg)](https://github.com/imtianx/PopMenu/issues) 
+
 自定义对话框的使用，仿照ios。从底部弹出，类似pop窗口。包括消息、图片、列表及对话框。
 
 演示效果：
