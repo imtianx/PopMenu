@@ -13,41 +13,44 @@
 
 
 使用方法：<br>
+```
+new ActionSheetDialog(context).show();
+new ActionSheetDialog(context).show();
+```
 
-		new ActionSheetDialog(context).show();
-       new ActionSheetDialog(context).show();
 注：context = 当前activity.this;
 
 具体用法：
-		
-		//(1)
-        new ActionSheetDialog (context)
-        .builder()
-        .setTitle ("清空消息列表后，聊天记录依然保留，确定要清空消息列表？")
-        .setCancelable (false)
-        .setCanceledOnTouchOutside (false)
-        .addSheetItem ("清空消息列表", ActionSheetDialog.SheetItemColor.Red
-                       , new ActionSheetDialog.OnSheetItemClickListener()
-        {
-            @Override
-            public void onClick (int which)
-            {
+```
+//(1)
+new ActionSheetDialog (context)
+.builder()
+.setTitle ("清空消息列表后，聊天记录依然保留，确定要清空消息列表？")
+.setCancelable (false)
+.setCanceledOnTouchOutside (false)
+.addSheetItem ("清空消息列表", ActionSheetDialog.SheetItemColor.Red
+	       , new ActionSheetDialog.OnSheetItemClickListener()
+{
+    @Override
+    public void onClick (int which)
+    {
 
-            }
-        }).show();
+    }
+}).show();
 
-		//(2)
-        new ActionSheetDialog (context)
-        .builder()
-        .setTitle ("清空消息列表后，聊天记录依然保留，确定要清空消息列表？")
-        .setCancelable (false)
-        .setCanceledOnTouchOutside (false)
-        .addSheetItem ("清空消息列表", ActionSheetDialog.SheetItemColor.Red
-                       , new ActionSheetDialog.OnSheetItemClickListener()
-        {
-            @Override
-            public void onClick (int which)
-            {
+//(2)
+new ActionSheetDialog (context)
+.builder()
+.setTitle ("清空消息列表后，聊天记录依然保留，确定要清空消息列表？")
+.setCancelable (false)
+.setCanceledOnTouchOutside (false)
+.addSheetItem ("清空消息列表", ActionSheetDialog.SheetItemColor.Red
+	       , new ActionSheetDialog.OnSheetItemClickListener()
+{
+    @Override
+    public void onClick (int which)
+    {
 
-            }
-        }).show();
+    }
+}).show();
+```
